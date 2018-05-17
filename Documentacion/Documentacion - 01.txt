@@ -1,0 +1,19 @@
+Fecha: 03/02/05/18
+-----------------------------------------------------------------------------------
+<Pratica> 	Etiqueta	  Apertura
+</Pratica> Cierre
+*Mantener en minusculas todas la etiquetas
+------------------------------------------------------------------------------------
+<Nombre Etiqueta/>	 INPUT	 LINK 
+BR*Salto de linea
+------------------------------------------------------------------------------------
+<nombre	atributo="valor">
+*Class: Es un conjunto de atributos que se puede nombrar o buscar.
+Ejemplo: Class="Pieza" id="P1"
+
+¿Que es un evento?
+*Tipos De Eventos
+------------------------------------------------------------------------------------
+
+
+

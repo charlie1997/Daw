@@ -1,0 +1,20 @@
+Fecha: 02/08/05/18
+--------------------------------------------------------------------------------------------
+	Codigo	          |	Definicion		|
+-------------------------------------------------------------------------------------------
+<!doctype <!Doctype Html> Version: Html 5
+
+<html lang="es">	           Eleccion o tipo de Lenguaje(Página).
+
+<header>		           
+
+
+<nav>
+
+<article>
+
+<aside>
+
+<footer>
+
+
