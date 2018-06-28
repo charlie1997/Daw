@@ -1,0 +1,67 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8"
+        <meta name="viwerport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <title>JavaScrip 42 </title>
+        <script>
+            function init(){
+                
+                var labels=document.getElementsByClassName("label");
+                var negritas= document.getElementsByTagName("strong");
+                var parrafo = document.createElement("p");
+                var contenido = document.createTextNode("Hola Mundo!!!!");
+                parrafo.appendChild(contenido);
+                document.body.appendChild(parrafo);
+                
+                var tds= document.getElementsByTagName("td");
+                for(x=0; x<tds.length; x++){
+                    var texto=document.createTextNode(x++);
+                    tds[x].appendChild(texto);
+                    tds[x].addEventListener("click", function(){
+                        
+                        alert(x+1);
+                        
+                    });
+                }
+                                                                    
+                for(x=0; x<labels.length; x++){
+                        labels[x].style.color="Blue";
+                }
+               
+                for (x=0;x<negritas.length;x++){
+                    negritas[x].style.textTransform="uppercase";
+                }
+                
+                document.getElementById("apellido").style.fontStyle="italic";
+                document.querySelectorAll("#apellido b")[0].style.fontStyle="normal";                                                   
+                                                                                    
+            }
+        
+        </script>
+        <style type="text/css"> </style> 
+    </head>
+    <body onload="init();">
+        <p  id="titulo" class="label">Esta Página es<strong> Muy Sencilla</strong></p>
+        <p id="nombre" class="label"><strong>Nombres</strong>Juan Carlos </p>
+        <p id="apellido" class="label"><b>Apellidos</b>Sanchez Gonzalez</p>
+        <table border cellpadding=30px; id="tabla">
+            
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </body>
+</html>
